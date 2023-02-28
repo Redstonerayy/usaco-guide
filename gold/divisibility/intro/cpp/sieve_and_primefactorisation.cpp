@@ -2,6 +2,9 @@
 
 using namespace std;
 
+// sieve of erasthones to find prime factors
+// this array will contain a prime number which divides
+// the index i of the array position
 const int MAX_N = 1e6;
 // max_div[i] contains the largest prime that goes into i
 int max_div[MAX_N + 1];

@@ -27,10 +27,6 @@ std::vector<int> prime_factorisation(int num){
 }
 
 int main(){
-    // sieve of erasthones to find prime factors
-    // this array will contain a prime number which divides
-    // the index i of the array position
-
     for(int i = 0; i < std::pow(10, 2); ++i){
         std::cout << "Number:" << i << "\n";
         std::cout << divisor_count(i) << "\n";
